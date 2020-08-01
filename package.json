@@ -1,0 +1,16 @@
+{
+  "name": "website-nodejs-test",
+  "version": "1.0.0",
+  "description": "website nodejs test",
+  "author": "Fabio Azevedo <emaildofabioeduardo@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
