@@ -3,7 +3,7 @@ var app = express();
 var router = express.Router();
 
 var path = __dirname + "/views/";
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 const HOST = "0.0.0.0";
 
 // função de middleware
@@ -23,6 +23,6 @@ router.get("/sharks", function (req, res) {
 app.use(express.static(path));
 app.use("/", router);
 
-app.listen(8080, function () {
-  console.log("Example app listening on port 8080");
+app.listen(PORT, function () {
+  console.log(`Example app listening on port ${PORT}`);
 });
