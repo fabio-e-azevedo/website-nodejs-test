@@ -9,6 +9,4 @@ RUN mkdir -p /home/node/app/node_modules && \
 
 USER node
 
-EXPOSE 8080
-
 CMD [ "node", "app.js" ]
